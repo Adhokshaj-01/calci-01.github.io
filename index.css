@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.menu{
+    /*border: 1px grey solid;*/
+    height: 100px;
+    background-image: linear-gradient(to bottom, #dedede, #e6e6e6, #eeeeee, #f7f7f7, #ffffff);
+    display: flex;
+}
+.brand{
+    /*border: 1px red solid;*/
+    height: 100px;
+    width: 1000px;
+    margin-left: 120px;
+}
+.brand h2{
+    color: #00BCBC;
+  font-size: 70px;
+  font-weight: bolder;
+  font-family: 'Carme', sans-serif;
+}
+.icon{
+    font-size: 30px;
+    color: rgb(151, 248, 6);
+}
+.calci a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    
+}
+.calci:hover{
+    cursor: pointer;
+    
+}
+.calci a:hover{
+    color: black;
+    margin-left: 5px;
+    transition: ease;
+}
+
+
+.m-c-2{
+   
+    margin-top: 150px;
+    /*border: black 1px solid;*/
+    height: 500px;
+    background-image: url(wave.svg);
+    background-size: cover;
+    
+
+}
+
+
+.img-temp{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px #9996ee;
+    /*border: 1px solid purple;*/
+}
+.con-m-c-2{
+    
+    height: 300px ;
+    width: 800px;
+    float: right;
+    margin-top: 80px;
+    
+}
+.con-m-c-2 h3{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Carme', sans-serif;
+    color: rgb(117, 1, 250);
+}
+.con-m-c-2 p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Carme', sans-serif;
+}
+.con-m-c-2 button{
+    margin-left: 200px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 60px;
+   background-color: #a8eb12;
+}
+.con-m-c-2 button:hover{
+    background-color: rgb(241, 197, 0);
+}
+.con-m-c-2 button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
